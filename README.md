@@ -17,6 +17,7 @@ Aplicativo mobile de livraria desenvolvido com React Native e Expo.
 - Navegação da tela inicial para a página de compra
 - Linkagem dos livros do HomeScreen com a tela de detalhes
 - Criação de página de autenticação de usuários (login)
+- Sincronização dos livros favoritos com a tela de acervo/explorar  
   
 🛠️ Tecnologias:
 - React Native + Expo
@@ -45,7 +46,8 @@ A mobile bookstore app built with React Native and Expo.
 - Navigation from home screen to purchase page
 - Linking HomeScreen books to the detail screen
 - User authentication (login page)
-- 
+- Synchronization of favorite books with the browse/catalog screen
+  
 🛠️ Tech Stack:
 - React Native + Expo
 - React Navigation (Stack + Bottom Tabs)
