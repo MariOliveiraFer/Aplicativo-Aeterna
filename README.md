@@ -1,11 +1,54 @@
-# Sample Snack app
+# 📚 Aeterna — Aplicativo de Livraria
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+🚧 Projeto em desenvolvimento
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+Aplicativo mobile de livraria desenvolvido com React Native e Expo.
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+✨ Funcionalidades concluídas:
+- Tela inicial com livros em destaque e categorias
+- Acervo completo com busca e filtro por categoria
+- Página de detalhes do livro (descrição, autor, editora, data de publicação)
+- Carrinho de compras com controle de quantidade e total
+- Lista de favoritos na página de detalhes do livro
+- Menu de navegação inferior (Bottom Tab Navigator)
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+🔧 Em desenvolvimento:
+- Favoritos na tela de acervo/explorar
+- Navegação da tela inicial para a página de compra
+- Linkagem dos livros do HomeScreen com a tela de detalhes
+- Criação de página de autenticação de usuários (login)
+  
+🛠️ Tecnologias:
+- React Native + Expo
+- React Navigation (Stack + Bottom Tabs)
+- Context API (gerenciamento de carrinho e favoritos)
+- Expo Google Fonts (Playfair Display)
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+- ---ENGLISH VERSION ---
+
+- 📚 Aeterna — Virtual Bookstore in React Native
+
+🚧 Work in progress
+
+A mobile bookstore app built with React Native and Expo.
+
+✨ Completed features:
+- Home screen with featured books and categories
+- Full catalog with search and category filter
+- Book detail page (description, author, publisher, release date)
+- Shopping cart with quantity control and total price
+- Favorites list on the book detail page
+- Bottom tab navigation
+
+🔧 In progress:
+- Favorites on the explore/catalog screen
+- Navigation from home screen to purchase page
+- Linking HomeScreen books to the detail screen
+- User authentication (login page)
+- 
+🛠️ Tech Stack:
+- React Native + Expo
+- React Navigation (Stack + Bottom Tabs)
+- Context API (cart and favorites management)
+- Expo Google Fonts (Playfair Display)
+
