@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "aeterna-app",
+    "slug": "snack-6829354b-7d71-4b8a-bbcc-69e27cef2384",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "aeterna",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fd61cdea-12bb-45ff-a8ae-fd35ccb39456"
+      }
+    }
+  }
+}
