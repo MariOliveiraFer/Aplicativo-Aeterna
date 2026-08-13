@@ -1,0 +1,32 @@
+body{
+    background-color: #FAF9F6 !important;
+}
+
+.card-aeterna{
+    max-width:450px;
+    max-height: 600px;
+    margin:100px auto;
+    border-radius:15px;
+    border: 1px solid #EAEAEA;
+}
+
+.card-aeterna h1 {
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+}
+
+
+.card-aeterna .subtitulo-marca {
+    color: #000;
+    font-size: 15px;
+    font-family: "Playfair Display", serif;
+}
+
+#tela-mensagem{
+    color:#000;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 10px;
+}
