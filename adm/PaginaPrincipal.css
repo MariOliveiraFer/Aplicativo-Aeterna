@@ -1,28 +1,46 @@
 body {
-        background-color: #f8f7f4;
-      }
-      .navbar-brand {
-        font-family: "Playfair Display", serif;
-        font-size: 1.5rem;
-        font-weight: 700;
-      }
-      .titulo-boasvindas {
-        font-family: "Playfair Display", serif;
-      }
-      .card-indicador {
-        border: none;
-        border-radius: 12px;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-        transition: transform 0.15s ease;
-      }
-      .card-indicador:hover {
-        transform: translateY(-3px);
-      }
-      .card-indicador .valor {
-        font-size: 2rem;
-        font-weight: 700;
-      }
-      .card-atalhos {
-        border: none;
-        border-radius: 12px;
-      }
+  background-color: #f8f7f4;
+}
+.navbar {
+  border-bottom: 1px solid #eaeaea;
+}
+
+.navbar-brand {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+  font-size: 15px;
+}
+
+.navbar-nav .nav-link.active {
+  color: #2c2c2c;
+  font-weight: 600;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #000;
+}
+.titulo-boasvindas {
+  font-family: "Playfair Display", serif;
+}
+.card-indicador {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: transform 0.15s ease;
+}
+.card-indicador:hover {
+  transform: translateY(-3px);
+}
+.card-indicador .valor {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.card-atalhos {
+  border: none;
+  border-radius: 12px;
+}
