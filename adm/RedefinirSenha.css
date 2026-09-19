@@ -1,18 +1,62 @@
-body{
-    background-color:#f5f5f5;
+body {
+    background-color: #FAF9F6 !important;
 }
 
-.card-aeterna {
-    background-color: #fff;
-    border: none;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-
+.card-aeterna,
+.card-aeterna-admin {
+    max-width: 450px;
+    margin: 100px auto;
+    border-radius: 15px;
+    border: 1px solid #EAEAEA;
 }
 
-.titulo-marca p{
+.card-aeterna h1,
+.card-aeterna-admin h1 {
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
     font-family: "Playfair Display", serif;
-    font-size: 1.5rem;
-    font-weight: 700;
+}
 
+.card-aeterna p,
+.card-aeterna-admin p {
+    color: #000;
+    font-size: 15px;
+    font-family: "Playfair Display", serif;
+}
+
+#tela-formulario {
+    padding: 20px;
+}
+
+#nova-senha,
+#confirmar-senha {
+    width: 300px;
+    height: 40px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#nova-senha::placeholder,
+#confirmar-senha::placeholder {
+    font-size: 13px;
+}
+
+#btn-submit {
+    background-color: #2C2C2C;
+    border: none;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    width: 260px;
+    height: 45px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+#btn-submit:hover {
+    background-color: #333;
+    transition: 0.3s;
 }
