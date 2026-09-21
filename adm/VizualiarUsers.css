@@ -1,0 +1,93 @@
+body{
+    background-color: #FAF9F6 !important;body {
+    background-color: #FAF9F6 !important;
+}
+
+.navbar {
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.navbar-brand {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #000 !important;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+    font-size: 15px;
+}
+
+.navbar-nav .nav-link.active {
+    color: #2C2C2C;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #000;
+}
+
+.card-aeterna-admin {
+    border-radius: 15px;
+    border: 1px solid #EAEAEA;
+}
+
+.card-usuarios {
+    max-width: 700px;
+}
+
+.card-aeterna-admin h1,
+.card-aeterna-admin p {
+    font-family: "Playfair Display", serif;
+}
+
+.card-aeterna-admin h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.form-control::placeholder {
+    font-size: 13px;
+}
+
+#btn-submit {
+    background-color: #2C2C2C;
+    border: none;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+#btn-submit:hover {
+    background-color: #333;
+    transition: 0.3s;
+}
+
+.usuario-item {
+    border: 1px solid #EAEAEA;
+    border-radius: 10px;
+}
+
+.usuario-nome {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.usuario-email {
+    font-size: 13px;
+    color: #555;
+}
+
+.usuario-data {
+    font-size: 12px;
+    color: #999;
+}
+}
